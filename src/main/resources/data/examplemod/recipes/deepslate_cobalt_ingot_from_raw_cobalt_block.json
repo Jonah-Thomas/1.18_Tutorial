@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "deepslate_cobalt_ingot",
+  "ingredients": [
+    {
+      "item": "examplemod:raw_cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "examplemod:deepslate_cobalt_ingot",
+    "count": 9
+  }
+}

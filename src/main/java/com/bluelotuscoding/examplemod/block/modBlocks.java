@@ -1,6 +1,7 @@
 package com.bluelotuscoding.examplemod.block;
 
 import com.bluelotuscoding.examplemod.ExampleMod;
+import com.bluelotuscoding.examplemod.item.modCreativeModeTab;
 import com.bluelotuscoding.examplemod.item.modItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,19 +23,19 @@ public class modBlocks {
     //This is our declartion of our block objects that we will see in game.
     public static final  RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), modCreativeModeTab.COURSE_TAB);
 
     public static final  RegistryObject<Block> COBALT_ORE = registerBlock("cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(4f).requiresCorrectToolForDrops()), modCreativeModeTab.COURSE_TAB);
 
     public static final  RegistryObject<Block> RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(2f).requiresCorrectToolForDrops()), modCreativeModeTab.COURSE_TAB);
 
     public static final  RegistryObject<Block> DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(3f).requiresCorrectToolForDrops()), modCreativeModeTab.COURSE_TAB);
 
     //Helper Methods to help us make block items
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

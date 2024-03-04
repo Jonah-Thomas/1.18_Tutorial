@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "deepslate_cobalt_ingot",
+  "ingredient": {
+    "item": "examplemod:deepslate_cobalt_ore"
+  },
+  "result": "examplemod:deepslate_cobalt_ingot",
+  "experience": 3.5,
+  "cookingtime": 300
+}

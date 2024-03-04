@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:deepslate_cobalt_ingot"
+    }
+  ],
+  "result": {
+    "item": "examplemod:raw_cobalt",
+    "count": 9
+  }
+}

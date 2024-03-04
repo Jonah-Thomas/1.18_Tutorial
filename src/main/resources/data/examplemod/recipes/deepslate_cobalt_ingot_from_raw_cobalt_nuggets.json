@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_cobalt_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:raw_cobalt"
+    }
+  },
+  "result": {
+    "item": "examplemod:deepslate_cobalt_ingot"
+  }
+}
