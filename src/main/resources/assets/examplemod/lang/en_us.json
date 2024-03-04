@@ -1,0 +1,9 @@
+{
+  "item.examplemod.cobalt_ingot": "Cobalt Ingot",
+  "item.examplemod.cobalt_nugget": "Cobalt Nugget",
+  "item.examplemod.raw_cobalt": "Raw Cobalt",
+  "block.examplemod.cobalt_block": "Cobalt Block",
+  "block.examplemod.cobalt_ore": "Cobalt Ore",
+  "block.examplemod.raw_cobalt_block": "Raw Cobalt Block",
+  "block.examplemod.deepslate_cobalt_ore": "Deepslate Cobalt Ore"
+}
