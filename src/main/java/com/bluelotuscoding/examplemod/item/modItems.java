@@ -1,6 +1,8 @@
 package com.bluelotuscoding.examplemod.item;
 
 import com.bluelotuscoding.examplemod.ExampleMod;
+import com.bluelotuscoding.examplemod.item.custom.coalSilverItem;
+import com.bluelotuscoding.examplemod.item.custom.dowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,18 @@ public class modItems {
 
     public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
             () -> new Item(new Item.Properties().tab(modCreativeModeTab.COURSE_TAB)));
+
+
+    //Here we change Item to downsingRodItem because it is a new item entirely as well as it being custom items within our mod.
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new dowsingRodItem(new Item.Properties().tab(modCreativeModeTab.COURSE_TAB).durability(30)));
+
+    public static final RegistryObject<Item> COAL_SILVER = ITEMS.register("coal_silver",
+            () -> new coalSilverItem(new Item.Properties().tab(modCreativeModeTab.COURSE_TAB)));
+
+    //Here we add a class that involves creating us a food item!
+    public static final RegistryObject<Item> TURNUP = ITEMS.register("turnup",
+            () -> new Item(new Item.Properties().tab(modCreativeModeTab.COURSE_TAB).food(modFoods.TURNUP)));
 
     //Register method
     public static void register(IEventBus eventBus) {

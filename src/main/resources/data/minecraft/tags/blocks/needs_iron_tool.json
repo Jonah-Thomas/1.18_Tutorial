@@ -4,6 +4,7 @@
     "examplemod:cobalt_block",
     "examplemod:raw_cobalt_block",
     "examplemod:cobalt_ore",
-    "examplemod:deepslate_cobalt_ore"
+    "examplemod:deepslate_cobalt_ore",
+    "examplemod:buffing_block"
   ]
 }

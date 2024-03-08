@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "examplemod:block/cobalt_block"
+  }
+}

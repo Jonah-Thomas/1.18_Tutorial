@@ -3,10 +3,30 @@
   "item.examplemod.deepslate_cobalt_ingot": "Deepslate Cobalt Ingot",
   "item.examplemod.cobalt_nugget": "Cobalt Nugget",
   "item.examplemod.raw_cobalt": "Raw Cobalt",
+  "item.examplemod.dowsing_rod": "Dowsing Rod",
+  "item.examplemod.coal_silver": "Coal Silver",
+  "item.examplemod.turnup": "Turnup",
+
   "block.examplemod.cobalt_block": "Cobalt Block",
   "block.examplemod.cobalt_ore": "Cobalt Ore",
   "block.examplemod.raw_cobalt_block": "Raw Cobalt Block",
   "block.examplemod.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.examplemod.buffing_block": "Buffing Block",
+  "block.examplemod.cobalt_stairs": "Cobalt Stairs",
+  "block.examplemod.cobalt_slab": "Cobalt Slab",
+  "block.examplemod.cobalt_button": "Cobalt Button",
+  "block.examplemod.cobalt_pressure_plate": "Cobalt Pressure Plate",
+  "block.examplemod.cobalt_wall": "Cobalt Wall",
+  "block.examplemod.cobalt_fence_gate": "Cobalt Fence Gate",
+  "block.examplemod.cobalt_fence": "Cobalt Fence",
+  "block.examplemod.cherry_blossom_door": "Cherry Blossom Door",
+  "block.examplemod.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
 
-  "itemGroup.coursemodtab": "MCCourse Mod"
+  "itemGroup.coursemodtab": "MCCourse Mod",
+
+
+  "item.examplemod.dowsing_rod.no_valuables": "No Valuables Found",
+  "tooltip.examplemod.dowsing_rod.tooltip.shift": "Right Click To Find Valuable Ore!",
+  "tooltip.examplemod.dowsing_rod.tooltip": "Press §eSHIFT§r for more information!",
+  "tooltip.block.buffing_block": "This block gives buffs to allow you to become the hero, Strengh VI, and Speed."
 }

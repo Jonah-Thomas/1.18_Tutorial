@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "S"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:deepslate_cobalt_ingot"
+    },
+    "X": {
+      "item": "examplemod:cobalt_ingot"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "examplemod:buffing_block"
+  }
+}
